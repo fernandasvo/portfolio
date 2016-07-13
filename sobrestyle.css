@@ -54,7 +54,7 @@ table {
 body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: hidden;
   }
 
@@ -87,11 +87,12 @@ header nav a {
   margin-left: 30px;
 }
 
-#imagens {
-  width: 300%;
+.imagens {
+	display: flex;
+	flex-direction: row;
+	width: 300%;
   height: 100%
-  position: relative;
-  top: 500px;
+
 
 }
 
