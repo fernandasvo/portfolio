@@ -67,7 +67,7 @@ header {
 }
 
 header img {
-  margin-left: 10px;
+  margin-left: 34px;
   margin-top: 12px;
   margin-bottom: 0;
   height: 35px;
@@ -76,7 +76,7 @@ header img {
 header nav {
   float: right;
   margin-right: 5%;
-  margin-top: 18px;
+  margin-top: 20px;
 }
 
 header nav a {
@@ -118,7 +118,6 @@ section#contato {
 		justify-content: center;
 		align-items: center;
 }
-
 
 
 .form {
@@ -191,7 +190,7 @@ button:hover {
 
 
 footer {
-  position:fixed;;
+  position:fixed;
   bottom: 0;
   width: 100%;
   background-color: #ffffff;
@@ -205,13 +204,14 @@ footer {
   color:  #1e1e2f;
   margin: 18px;
   font-size: 12px;
+		margin-left: 40px;
 }
 
 
 footer  nav {
   float: right;
   margin-right: 5%;
-  margin-top: 12px;
+  margin-top: 14px;
   display: inline-block;
 }
 

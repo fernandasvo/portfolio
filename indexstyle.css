@@ -53,102 +53,36 @@ table {
 
 body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
-  margin: 0;
-	overflow-y: hidden;
-}
-
-header {
-	z-index: 3;
+    margin: 0;
     background-color: black;
-    height: 60px;
-    position: fixed;
-    width: 100%;
 }
 
-header img {
-  margin-left: 34px;
-  margin-top: 12px;
-  margin-bottom: 0;
-  height: 35px;
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 220px;
 }
 
-header nav {
-  float: right;
-  margin-right: 5%;
-  margin-top: 20px;
+
+
+img {
+  width: 60%;
+  height: 60%;
 }
 
-header nav a {
-  color: #e0e0eb;
-  font-size: 14px;
-  font-weight: 400;
+nav {
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #797675;
+  margin-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 17px;
   text-decoration: none;
-  margin-left: 30px;
-}
-
-.projects {
-	z-index: 2;
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	height: 70%;
-	width: 150%;
-	position: relative;
-	top: 60px;
-	}
-
-.projeto {
-	display: flex;
-	align-items: stretch;
-	justify-content: flex-start;
-	width: 20%;
-
-}
-
-
-.grid {
-	display: flex;
-
-	width: 100%;
-
-}
-
-
-footer {
-	z-index: 3;
-  position:fixed;;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  height: 50px;
-}
-
-#direitos {
-  font-weight: 200;
-  color:#e0e0eb;
-  display: inline-block;;
-  margin: 18px;
-  font-size: 12px;
-	margin-left: 40px;
-
-}
-
-
-footer nav {
-  float: right;
-  margin-right: 5%;
-  margin-top: 14px;
-  display: inline-block;
-}
-
-
-footer nav a {
-  color: #e0e0eb;
-  font-size: 12px;
-  font-weight: 300;
-  text-decoration: none;
-  margin-left: 30px;
-  margin-top: 5px;
+  float: left;
 }
