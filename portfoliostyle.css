@@ -63,6 +63,7 @@ header {
     height: 60px;
     position: fixed;
     width: 100%;
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 header img {
@@ -70,6 +71,7 @@ header img {
   margin-top: 12px;
   margin-bottom: 0;
   height: 35px;
+
 }
 
 header nav {
@@ -84,6 +86,14 @@ header nav a {
   font-weight: 400;
   text-decoration: none;
   margin-left: 30px;
+}
+
+.page {
+	font-weight: 600;
+}
+
+.hover:hover {
+ 	color: rgba(63, 63, 63, 0.9);
 }
 
 .projects {
@@ -110,10 +120,10 @@ header nav a {
 
 .grid {
 	display: flex;
-
 	width: 100%;
-
 }
+
+
 
 
 footer {
@@ -123,6 +133,7 @@ footer {
   width: 100%;
   background-color: black;
   height: 50px;
+
 }
 
 #direitos {
@@ -151,4 +162,8 @@ footer nav a {
   text-decoration: none;
   margin-left: 30px;
   margin-top: 5px;
+}
+
+footer nav a:hover {
+ 	color: rgba(63, 63, 63, 0.9);
 }
