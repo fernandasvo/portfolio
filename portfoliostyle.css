@@ -103,8 +103,7 @@ header nav a {
 	align-items: stretch;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	height: 70%;
-	width: 150%;
+	width: 100%;
 	position: relative;
 	top: 60px;
 	}
@@ -113,7 +112,8 @@ header nav a {
 	display: flex;
 	align-items: stretch;
 	justify-content: flex-start;
-	width: 20%;
+	min-width: 100px;
+	max-width: 320px;
 
 }
 

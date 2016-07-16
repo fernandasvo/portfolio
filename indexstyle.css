@@ -62,8 +62,9 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  top: 220px;
+  position: absolute;;
+  top: 50%;
+	transform: translateY(-50%);
 }
 
 

@@ -54,7 +54,7 @@ table {
 body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: scroll;;
 	overflow-y:hidden;
 }
 
