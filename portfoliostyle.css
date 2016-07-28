@@ -55,15 +55,16 @@ body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
   margin: 0;
 	overflow-y: hidden;
+  background: url('img/portfolio.jpg');
 }
 
 header {
 	z-index: 3;
-    background-color: black;
+
     height: 60px;
     position: fixed;
     width: 100%;
-		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
 }
 
 header img {
@@ -96,42 +97,39 @@ header nav a {
  	color: rgba(63, 63, 63, 0.9);
 }
 
-.projects {
-	z-index: 2;
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	width: 100%;
-	position: relative;
-	top: 60px;
-	}
-
-.projeto {
-	display: flex;
-	align-items: stretch;
-	justify-content: flex-start;
-	min-width: 100px;
-	max-width: 320px;
-
+.content {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  position: relative;
+  top: 60px;
 }
 
-
-.grid {
-	display: flex;
-	width: 100%;
+.img-box {
+  width: 25%;
+  min-width: 330px;
 }
 
+.img-box img{
+  width: 100%;
+}
 
-
+.img-box img.img-hover {
+  display: none;
+}
+.img-box:hover img.img-default {
+  display: none;
+}
+.img-box:hover img.img-hover {
+  display: inherit;
+}
 
 footer {
 	z-index: 3;
   position:fixed;;
   bottom: 0;
   width: 100%;
-  background-color: black;
+
   height: 50px;
 
 }
