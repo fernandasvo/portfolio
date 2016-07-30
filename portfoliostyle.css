@@ -137,7 +137,7 @@ footer {
 
 #direitos {
   font-weight: 200;
-  color:#e0e0eb;
+  color:rgb(63, 63, 63);
   display: inline-block;;
   margin: 18px;
   font-size: 12px;
@@ -155,7 +155,7 @@ footer nav {
 
 
 footer nav a {
-  color: #e0e0eb;
+  color: rgb(63, 63, 63);
   font-size: 12px;
   font-weight: 300;
   text-decoration: none;

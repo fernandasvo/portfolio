@@ -161,7 +161,7 @@ button {
 	position: relative;
 	top: 10px;
 	font-family: "Titillium Web";
-	background-color: #901f45;
+	background-color: rgb(63, 63, 63);
 	color: white;
 	border: none;
 	font-size: 1em;

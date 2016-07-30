@@ -54,7 +54,7 @@ table {
 body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
   margin: 0;
-	/*background: url(img/portfolio.jpg) no-repeat;*/
+	background: url(img/portfolio.jpg) no-repeat;
 
 }
 
@@ -103,11 +103,11 @@ header nav a {
 
 }
 
-.video {
+video.video {
 	min-height: 100%;
 	z-index: -5;
 	object-fit: cover;
-	border-style: none;
+	border: none;
 }
 
 footer {
