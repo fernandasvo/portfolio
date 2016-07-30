@@ -100,13 +100,14 @@ header nav a {
 .content {
   display: flex;
   flex-direction:row;
+	justify-content: center;
   flex-wrap:wrap;
   position: relative;
   top: 60px;
 }
 
 .img-box {
-  width: 25%;
+  width: 33%;
   min-width: 330px;
 }
 
