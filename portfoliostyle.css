@@ -54,13 +54,11 @@ table {
 body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
   margin: 0;
-	overflow-y: hidden;
-  background: url('img/portfolio.jpg');
+	  background: url('img/portfolio.jpg');
 }
 
 header {
 	z-index: 3;
-
     height: 60px;
     position: fixed;
     width: 100%;
@@ -97,6 +95,9 @@ header nav a {
  	color: rgba(63, 63, 63, 0.9);
 }
 
+
+/* GRID STARTS*/
+
 .content {
   display: flex;
   flex-direction:row;
@@ -124,6 +125,69 @@ header nav a {
 .img-box:hover img.img-hover {
   display: inherit;
 }
+
+/* GRID ENDS*/
+
+/* POPUP STARTS*/
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(63, 63, 63, 0.9);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+	z-index: 8;
+}
+
+.popup {
+  margin: 20px auto;
+  background: #fff;
+  width: 95%;
+	height: 92%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+/* POPUP ENDS*/
+
+/*POPUP CONTENT*/
+
+.carroussel {
+	height: 100%;
+}
+
+
+
+
+
+
+
 
 footer {
 	z-index: 3;
