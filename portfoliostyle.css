@@ -54,8 +54,8 @@ table {
 body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
   margin: 0;
-	  background: url('img/portfolio.jpg');
-}
+	background: url('img/portfolio.jpg');
+	}
 
 header {
 	z-index: 3;
@@ -89,11 +89,13 @@ header nav a {
 
 .page {
 	font-weight: 600;
+	 	color: rgba(63, 63, 63, 0.6);
 }
 
 .hover:hover {
  	color: rgba(63, 63, 63, 0.9);
 }
+
 
 
 /* GRID STARTS*/
@@ -105,10 +107,11 @@ header nav a {
   flex-wrap:wrap;
   position: relative;
   top: 60px;
+
 }
 
 .img-box {
-  width: 33%;
+  width: 30%;
   min-width: 330px;
 }
 
@@ -148,9 +151,11 @@ header nav a {
 }
 
 .popup {
+	display: flex;
+	flex-direction: row;
   margin: 20px auto;
   background: #fff;
-  width: 95%;
+	width: 92%;
 	height: 92%;
   position: relative;
   transition: all 5s ease-in-out;
@@ -167,7 +172,7 @@ header nav a {
   color: #333;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: white;
 }
 .popup .content {
   max-height: 30%;
@@ -178,11 +183,82 @@ header nav a {
 
 /*POPUP CONTENT*/
 
-.carroussel {
-	height: 100%;
+
+
+
+
+.projectinfos {
+	background-color: rgba(0, 0, 0, 0.89);
+	color: white;
+	z-index: 9;
+
 }
 
+h1 {
+  font-size: 22px;
+  font-weight: 400;
+	margin: 30px;
+	margin-top: 60px;
+}
 
+h2 {
+  font-size: 14px;
+  font-weight: 300;
+	margin: 30px;
+	line-height: 1.2;
+
+}
+
+h3 {
+  position: relative;
+  top: 150px;
+  font-size: 13px;
+  font-weight: 300;
+	margin-left: 30px;
+	margin-bottom: 10px;
+
+}
+
+h4 {
+  position: relative;
+  top: 165px;
+  font-size: 12px;
+  font-weight: 300;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.tudopreto {
+	color: rgba(0, 0, 0, 0.0)
+}
+
+.projectimages {
+	display:flex;
+	height: 100%;
+	width: 300%;
+	overflow:auto;
+
+}
+
+.carroussel {
+	height: 100%;
+
+}
+
+.canvas {
+	width: 100%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e8e8e8;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background: #949494;
+}
 
 
 
@@ -194,7 +270,7 @@ footer {
   position:fixed;;
   bottom: 0;
   width: 100%;
-
+	background-color: rgba(177, 177, 177, 0.2);
   height: 50px;
 
 }
@@ -221,12 +297,13 @@ footer nav {
 footer nav a {
   color: rgb(63, 63, 63);
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   margin-left: 30px;
   margin-top: 5px;
 }
 
 footer nav a:hover {
- 	color: rgba(63, 63, 63, 0.9);
+ 	color: rgb(63, 63, 63);
+	font-weight: 600;
 }
