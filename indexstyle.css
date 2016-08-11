@@ -53,12 +53,12 @@ table {
 
 body {
   font-family: 'Titillium Web', 'Century Gothic', sans-serif;
-	/*background: url(img/portfolio.jpg) no-repeat;*/
-
-}
+  margin: 0;
+	background: url('img/portfolio.jpg');
+	}
 
 header {
-		z-index: 3;
+	z-index: 3;
     height: 60px;
     position: fixed;
     width: 100%;
@@ -89,6 +89,7 @@ header nav a {
 
 .page {
 	font-weight: 600;
+	 	color: rgba(63, 63, 63, 0.6);
 }
 
 .hover:hover {
